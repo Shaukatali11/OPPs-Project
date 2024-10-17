@@ -1,0 +1,22 @@
+Steps to Implement the System
+
+Step 1: Define the Product Class:
+We start by defining the Product class, which holds product details and manages input/output using getter and setter methods.
+  Private Data Members: We define the attributes of a product (ID, name, price, quantity) as private to protect data.
+  Getter and Setter Methods: These methods allow controlled access and modification of the private members.
+  Input Method: To allow the admin to add new products by getting input from the user.
+
+
+Step 2: Define the Supermarket Class
+The Supermarket class will manage all the products and user interactions, including adding, modifying, viewing products, and handling customer orders.
+  addProduct(): Allows the admin to add new products to the system. It collects input and pushes the product to the products vector.
+  displayProducts(): Displays all available products, making it easy for both admins and customers to view the stock.
+  modifyProduct(): Modifies a product's details based on the product ID.
+  deleteProduct(): Deletes a product based on the product ID.
+  handleCustomer(): Allows a customer to select products, add them to a cart, and then generate a bill based on the selected items.
+  generateBill(): Calculates and prints the total bill for the items in the cart.
+
+
+Step 3: Create the Main Program
+Now, we create the main() function to interact with the admin and customers. The admin can add, modify, and delete products, while the customer can place orders.
+
